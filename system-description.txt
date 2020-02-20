@@ -1,0 +1,3 @@
+# About dateRecognizer.py
+
+This simple date recognizer program uses different regular expression patterns as search patterns. These patterns were compiled from constants such as MONTH, YEAR, DAY, etc. For coverage, the month includes both the long and short form, day suffixes are included, different writing conventions for AM and PM are included, different separators are also specified. 8 regular expressions are included in this program, including full dates such as Wednesday January 15th, 2019 to short form such as Monday. Holidays are also recognized, and the program allows for misspellings and normalized for casing, so "new year day" can also be detected.
